@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+nav {position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+      z-index: 1;}
+
+.pair {background-image: url(horses.jpg);
+ height: 678px;
+        width: auto;
+background-repeat: no-repeat;}
+
+
+.card1 {padding-top: 80px;
+        padding-left: 30px;
+        width: 18rem;}
+
+.card img {border-radius: 50px;}
+
+.card-title {font-family: 'Caveat:wght@500&display=swap', cursive,sans-serif;
+             font-size: x-large;}
+
+.display-4 {color: rgb(218, 40, 40);
+            font-family: 'Caveat:wght@500&display=swap', cursive,sans-serif;
+            padding-left: 43%;}
+
+.card-size {width: 400px;
+            padding-top: 30px;
+            margin: auto;
+           }
+
+
+
+.card-size img {width: 350px;
+                margin: auto;
+                padding-top: 50px;
+                border-radius: 60%;}
+
+.card-size h5 {padding-top: 25px;
+        font-size: 40px;}
+
+.singles {background-color: rgb(218, 40, 40);
+          height: 300px;
+          margin-top: -31px;}
+
+.singles img {margin-left: 90px;
+              padding-top: 30px;
+              padding-bottom: 30px;}
+
+.singles h5 {color: white;
+             font-size: 40px;}
+
+.singles li {color: white;
+             font-size: 25px;
+             font-family: 'Caveat:wght@500&display=swap', cursive,sans-serif;}
+
+.text1 {color: rgb(218, 40, 40);
+        font-family: 'Caveat:wght@500&display=swap', cursive,sans-serif;
+        padding-top: 50px;}
+
+.buttons {padding-top: 50px;
+          padding-bottom: 50px;}
+
+.near {background-color: rgb(187, 123, 123);}
+
+.carousel-item img {width: 60%; 
+                   border-radius: 50px 50px 50px 50px;
+                   margin-left: 20%;
+                   padding-top: 20px;
+                   padding-bottom: 20px;
+                   }
+
+footer {background-color: rgb(187, 123, 123);
+        height: 200px;}
+
+.footer-nest {padding-top: 65px;}
+
+.foot {padding-top: 20px;
+       padding-bottom: 50px;}
+
+#cta {background-color: whitesmoke;
+      height: 280px;}
+
+.btn-group {padding-right: 60px;}
+
+.dropdown-menu label {margin-left: 17%;}
+
+.dropdown-menu input {width: 100px;
+                      height: 20px;
+                      margin-left: 17%;}
+
+.dropdown-menu button {margin-left: 25%;}
+
+.dropdown-menu {float: left;}
+
+.navbar-collapse a{ font-size: 25px;}
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:1100px){
+
+nav {height: 100px;}
+
+.navbar-collapse a {font-size: 50px;}
+
+.navbar-toggler {height: 80px;
+                 width: 80px;}
+
+.navbar-brand {font-size: 100px;}
+
+.navbar-collapse {background-color: whitesmoke;}
+
+.btn-group{padding-bottom: 5px; padding-left: 20%;}
+
+.btn-group a{font-size: 45px;}
+
+.card1 {width: 400px;
+        margin-left:-15px;
+        padding-top: 30px;}
+
+
+.card1 img {width: 170px;
+            margin: auto;
+        border-radius: 50%;
+        margin-top: 20px;}
+
+.card-title {font-size: 40px;}
+
+.card-text {font-size: 30px;}
+
+.card-body a {font-size: 26px;}
+
+.btn-group {margin-left: 150px;}
+
+.near {height: 800px;}
+
+.carousel-item img {height: 800px; width: 100%;
+        margin: auto; 
+        margin-top: 15px;}
+
+#cta {height: 280px;}
+
+#cta h1 {font-size: 50px;}
+
+footer {height: 400px;}
+
+.footer-nest {font-size: 40px;
+             height: 400px;
+             padding-top: 120px;}
+
+.lol {height: 400px;
+      background-color: whitesmoke;}
+        
+
+.dropdown-menu input {width: 200px;
+                      height: 50px;
+                      margin-left: 5%;}
+
+.dropdown-menu {width: 400px;
+                float:left;}
+
+.dropdown-menu label {font-size: 50px;
+                      margin-left: 5%;}
+
+.dropdown-menu button {font-size: 40px;
+                       margin-left: 30%;
+                       margin-bottom: 5%;}
+
+.pair {background-image: url(horses-1.jpg);}
+
+.buttons button {width: 300px;
+                 height: 80px;
+                 font-size: 35px;}
+
+
+
+.singles li {font-size: 35px;}
+
+.near {margin-top: 8%;}
+
+}
